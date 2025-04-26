@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 
-const connectionString = process.env.ATLAS_URI;
+const connectionString = process.env.mongoURI;
     
 const client = new MongoClient(connectionString);
 

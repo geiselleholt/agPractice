@@ -14,7 +14,7 @@ dotenv.config();
 app.use(express.json());
 
 //Routes
-app.use('/grades', gradeRoutes);
+app.use('/api/grades', gradeRoutes);
 
 //Error Middleware
 
